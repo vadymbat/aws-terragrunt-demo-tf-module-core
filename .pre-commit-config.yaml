@@ -5,7 +5,6 @@ repos:
     - id: terraform_tflint
       args: ['--args=--deep']
     - id: terraform_fmt
-    - id: terraform_docs
     - id: terraform_tfsec
-      args: ["--args=--config-file tfsec.yml"]
     - id: checkov
+    - id: terraform_docs
