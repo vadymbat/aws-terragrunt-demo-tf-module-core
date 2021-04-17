@@ -1,0 +1,11 @@
+repos:
+- repo: git://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.48.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+  hooks:
+    - id: terraform_tflint
+      args: ['--args=--deep']
+    - id: terraform_fmt
+    - id: terraform_docs
+    - id: terraform_tfsec
+      args: ["--args=--config-file tfsec.yml"]
+    - id: checkov
