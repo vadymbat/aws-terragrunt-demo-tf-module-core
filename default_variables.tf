@@ -5,6 +5,11 @@ variable "default_tags" {
   }
 }
 
+variable "tags" {
+  type = map(string)
+  default = {}
+}
+
 variable "aws_profile" {
   type    = string
   default = ""

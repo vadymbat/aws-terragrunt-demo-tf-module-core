@@ -1,5 +1,8 @@
+terraform {
+  backend "s3" {}
+}
+
 resource "aws_kms_key" "default_kms" {
-  id                  = "default_kms"
   description         = "KMS key 1"
   enable_key_rotation = true
 
