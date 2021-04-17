@@ -6,11 +6,11 @@ variable "default_tags" {
 }
 
 variable "aws_profile" {
-  type = string
-  defaul = ""
+  type    = string
+  default = ""
 }
 
 variable "aws_provider_role" {
-  type = string
-  defaul = ""
+  type    = string
+  default = ""
 }
