@@ -47,3 +47,5 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
     && echo "complete -C '${LOCAL_BIN}/aws_completer' aws" >> /root/.bashrc \
     && rm awscliv2.zip \
     && rm -rf ./aws
+
+CMD ["/bin/bash"]
