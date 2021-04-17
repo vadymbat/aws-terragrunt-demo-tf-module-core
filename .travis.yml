@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t tf_tools -f .devcontainer/Dockerfile
+  - docker build -t tf_tools .devcontainer/
 
 jobs:
   include:
