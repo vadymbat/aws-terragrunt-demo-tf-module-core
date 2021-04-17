@@ -1,4 +1,5 @@
 # aws-terragrunt-demo-tf-modules
+[![Build Status](https://travis-ci.com/vadymbat/aws-terragrunt-demo-tf-module-core.svg?branch=main)](https://travis-ci.com/vadymbat/aws-terragrunt-demo-tf-module-core)
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
